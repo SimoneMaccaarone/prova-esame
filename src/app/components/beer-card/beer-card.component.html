@@ -1,3 +1,17 @@
-<div>
-  <span> {{beer?.name}} </span>
+<div class="container">
+
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title class="name"><a href={{beer?.website_url}}>{{beer?.name}} </a></mat-card-title>
+      <div class="spacer"></div>
+      <mat-card-subtitle> <i> {{beer?.country}}, {{beer?.state}} </i> </mat-card-subtitle>
+      <mat-card-subtitle> <small><b> {{beer?.city}},</b></small>{{beer?.street}} </mat-card-subtitle>
+
+    </mat-card-header>
+    <mat-card-content>
+      <p></p>
+      <p></p>
+    </mat-card-content>
+  </mat-card>
+
 </div>
